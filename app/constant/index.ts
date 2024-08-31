@@ -1,10 +1,10 @@
 export const logo = [
     { url: '/dbl.png', alt: 'logo dbl'},
-    { url: '/pertamina.png', alt: 'logo pertamina'},
+    { url: '/Pertamina.png', alt: 'logo P'},
     { url: '/band.jpeg', alt: 'logo band'},
     { url: '/taekwondo.jpg', alt: 'logo taekwondo'},
     { url: '/dbl.png', alt: 'logo dbl'},
-    { url: '/pertamina.png', alt: 'logo pertamina'},
+    { url: '/Pertamina.png', alt: 'logo pertamina'},
 ]
 
 export const eventList = [
