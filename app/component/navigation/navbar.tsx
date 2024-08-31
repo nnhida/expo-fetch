@@ -40,7 +40,7 @@ export default function Navbar() {
 
       <div className={`${menuOpen ? `-right-0 ` : `-right-44 `}lg:hidden fixed top-0 z-[60] h-screen bg-slate-100 pt-10 transition-all`}>
         <div className='flex items-end flex-col space-y-5'>
-          <button onClick={togglemenu} className='p-3 mr-10 rounded-full bg-slate-400 drop-shadow-2xl'>
+          <button onClick={togglemenu} className='p-3 mr-10 rounded-full bg-slate-200 drop-shadow-2xl'>
             <IoMdClose className='size-7' />
           </button>
           <Link href={''} className=' hover:bg-slate-300 hover:border-b-4 border-slate-500 px-10 py-5 w-full text-right '>Beranda</Link>
