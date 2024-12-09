@@ -3,10 +3,10 @@ import React from 'react'
 interface eventProps {
   url: string,
   title: string,
-  desc: string
+  desc: string,
 }
 
-export default function EventSchool({url, title, desc}:eventProps) {
+export default function EventSchool({ url, title, desc}:eventProps) {
   return (
     <div className='flex flex-col space-y-3 lg:space-y-5 w-72 lg:w-min'>
       <div className='w-full lg:w-[400px] h-56 lg:h-72 bg-slate-500 rounded-3xl' style={{
@@ -18,7 +18,7 @@ export default function EventSchool({url, title, desc}:eventProps) {
 
         <div className='flex flex-col space-y-1'>
           <p className='text-3xl font-medium'>{title}</p>
-          <p className='text-gray-500 text-lg'>{desc}</p>
+          <p className='text-gray-500 text-lg line-camp-3'>{desc}</p>
         </div>
     </div>
   )
